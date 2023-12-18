@@ -1,0 +1,31 @@
+/*
+ * @Author: v-zhang.xiaoyan@v-zhang.xiaoyan v-zhang.xiaoyan@hellogroup.com
+ * @Date: 2023-12-18 12:31:39
+ * @LastEditors: v-zhang.xiaoyan@v-zhang.xiaoyan v-zhang.xiaoyan@hellogroup.com
+ * @LastEditTime: 2023-12-18 12:32:51
+ * @FilePath: \components\docs\.vuepress\components\card.scss
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+ .m-card{
+  width: 270px;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 6px 10px 0 rgb(238, 239, 228);
+  padding-bottom: 8px;
+
+  &-img{
+    height: 152px;
+    img{
+      width: 100%;
+      height:100%;
+
+    }  
+  }
+ 
+  &-summary{
+    padding:8px;
+    text-align:left;
+    font-size:14px;
+  }
+}
